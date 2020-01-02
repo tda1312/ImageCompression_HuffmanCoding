@@ -42,7 +42,7 @@ int fib(int n)
 int main() 
 { 
 	int i, j; 
-	char filename[] = "barbara_gray.bmp"; 
+	char filename[] = "lena_gray.bmp"; 
 	int data = 0, offset, bpp = 0, width, height; 
 	long bmpsize = 0, bmpdataoff = 0; 
 	int** image; 
